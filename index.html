@@ -1,0 +1,156 @@
+
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+    <title>
+        Narasimhan Resume
+              
+   </title>
+ <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    
+
+               
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#">Interest</a></li>
+                    <li><a href="#Contact us">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+    </div> 
+
+   <!------------about----------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/naveen.jpg" width= 500  height=550>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi, Am Narasimhan from the place of Salem TamilNadu.<br>
+                <br>
+                    And I did My Bacholer of Computer Application degree in Mahendra arts and science collge.
+            <br>
+        <br>
+            I have 6Month Experience in Jumio Project which is ID verification process at Mahendra Nextwelth Company  <br>
+        <br>
+         And I have 1year Experience in Mortgage (PCCR) project in indecomm Bussiness service<br>
+        <br>
+        I have interest to work in Web Developing and software developing.<br>
+    <br>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Education------------>
+<div id="Education">
+    <h1>Education</h1><br>
+    <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('sslc')">SSLC</p>
+    
+</div>
+<div class="tab-content active-tab" id="sslc">
+    <ul>
+        <li><span>Institution</span><br>Yuva Bharathi Matric School</li>
+        <li><span>Year of passing</span><br>2015</li>
+        <li><span>Percentage</span><br>80%</li>
+    </ul>
+</div>
+<p class="tab-links" onclick="opentab('hsc')">HSC</p> 
+<div class="tab-content" id="hsc">
+    <ul>
+        <li><span>Institution</span><br>Bala Bharathi Hr.sec School</li>
+        <li><span>Year of passing</span><br>2017</li>
+        <li><span>Percentage</span><br>51%</li>
+    </ul>
+</div>
+<p class="tab-links"onclick="opentab('degree')">Degree</p>
+<div class="tab-content" id="degree">
+    <ul>
+        <li><span>Institution</span><br>Mahendra arts and science college</li>
+        <li><span>Year of passing</span><br>2020</li>
+        <li><span>Percentage</span><br>60%</li>
+    </ul>
+</div>
+</div>
+
+<!-----------Experience------------>
+<div id="Experience">
+    <div class="Container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="Experience-list">
+            <div>
+                <h1><b>JUMIO PROCESS</b></h1>
+                <br><p><b>I have 6 month Experience In Jumio Process</b></p>
+                <p><b>Jumio's AI-powered ID Verification allows businesses to establish the genuine identity <br>
+                    of their users by verifying government-issued IDs in real time, automatically.<br> 
+                    Jumio's advanced technologies detect manipulations of ID images, content (name, address, date of birth, etc.) and face photo replacements.</b></p>
+                    <a href="#">learn More</a>
+            </div>
+            <div>
+                <h1><b>PCCR PROCESS</b></h1>
+                <br>
+                <p><b>I have 1year Experience in Mortgage Pccr Process</b></p>
+                <p><b>Yes, This is the Mortgage process which is US Loan , am working in the team PCCR (POST CLOSING COMPLAINCE REVIEW).<br>
+                This works to review the loan with the help of instruction from the banks rules, and to conform to send the next level team.</b>
+                </p>
+                    <a href="#">learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------------Contact----------------->
+
+<div id="Contact us">
+    <div class="Contact-info"></div>
+    <h2>Contact us</h2>
+    <p><b><i class="fa-sharp fa-solid fa-paper-plane"></i>      naveenskitty07@gmail.com</b></p>
+    
+    <p><b><i class="fa-solid fa-phone"></i>     8144951705</b></p>
+    <div class="Container">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/simha_02/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCQ-yYHcEt5Xel4x4llMq8dQ"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/Simha_22"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+       
+    </div>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script src="https://kit.fontawesome.com/9689294d9f.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
