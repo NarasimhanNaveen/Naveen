@@ -195,11 +195,11 @@ nav ul{
     background:lightslategray;
     position: fixed;
     top: 0;
-    right: -200px ;
-    width: 200px;
+    right: -250px ;
+    width: 300px;
     height: 50vh;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 120px;
     z-index: 2;
     transition: right 0.5s;
  
