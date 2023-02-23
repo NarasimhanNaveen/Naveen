@@ -196,7 +196,7 @@ nav ul{
     position: fixed;
     top: 0;
     right: -600px;
-    width: 600px;
+    width: 200px;
     height: 50vh;
     padding-top:50px;
     z-index: 2;
@@ -205,7 +205,7 @@ nav ul{
 }
 nav ul li{
     display: block;
-    margin: 25px;
+    margin: 10px;
 } 
 nav ul .fa-solid{
     position: absolute;
@@ -213,7 +213,7 @@ nav ul .fa-solid{
     left: 25px;
     cursor: pointer;
 }
-}
+
 .about-col-1 ,.about-col-2{
     flex-basis: 1000%;
 }
